@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+}
+
+.encabezado {
+  background-color: #0084c6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.encabezado .logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  height: 60px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.2em;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+.malla {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+}
+
+.ramo {
+  background-color: #002c5f;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.85em;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.ramo.aprobado {
+  background-color: #4caf50;
+}
+
+.ramo .creditos {
+  font-size: 0.7em;
+  margin-top: 4px;
+  color: #ccc;
+}
+
+.barra-progreso {
+  margin-top: 30px;
+  text-align: center;
+}
+
+progress {
+  width: 80%;
+  height: 20px;
+}
